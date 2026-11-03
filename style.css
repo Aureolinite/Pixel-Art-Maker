@@ -1,0 +1,12 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(16, 20px);
+  width: max-content;
+  margin-top: 10px;
+}
+.pixel {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
